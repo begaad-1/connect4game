@@ -23,7 +23,7 @@ rowindex =5;
 }
 void chekwinner(){
 
-
+    //the logic
 for (int i=0;i<6;i++){
     for(int j=0;j<7;j++){
             if (board [i][j]== player &&board [i][j-1]== player&&board [i][j-2]== player&&board [i][j-3]== player)
